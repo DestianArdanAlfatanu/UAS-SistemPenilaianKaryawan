@@ -438,13 +438,13 @@ DB::table('divisis')->insert([
 
 DB::table('divisis')->insert([
 
-'nama\_divisi' => "IT"
+'nama\_divisi' => "Manager"
 
 ]);
 
 DB::table('divisis')->insert([
 
-'nama\_divisi' => "Pemasaran"
+'nama\_divisi' => "IT"
 
 ]);
 
@@ -466,7 +466,19 @@ DB::table('kompetensis')->insert([
 
 DB::table('kompetensis')->insert([
 
-'kompetensi' => "Kejujuran"
+'kompetensi' => "Kedisiplinan"
+
+]);
+
+DB::table('kompetensis')->insert([
+
+'kompetensi' => "Kinerja"
+
+]);
+
+DB::table('kompetensis')->insert([
+
+'kompetensi' => "Keterampilan"
 
 ]);
 
